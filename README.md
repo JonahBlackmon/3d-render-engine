@@ -60,10 +60,20 @@ This project allows users to input a description of a basic 3D shape (like *cube
 
 ## Demo
 
+![3D Shape Animation Demo](./animation.gif)
 
 ---
 
 ## Installation
 
 ```bash
+git clone https://github.com/yourusername/3d-render-engine.git
+cd 3d-render-engine
 
+# Set up virtual environment (optional but recommended)
+python3 -m venv venv
+source venv/bin/activate  # On macOS/Linux
+venv\Scripts\activate     # On Windows
+
+# Install all dependencies and run
+python3 render.py
